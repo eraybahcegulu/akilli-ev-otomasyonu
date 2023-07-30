@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+@layer components {
+  .site-container {
+    @apply max-w-2xl mx-auto px-2 md:px-6;
+  }
+  .site-4xl-container {
+    @apply max-w-4xl mx-auto;
+  }
+}
