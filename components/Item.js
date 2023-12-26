@@ -2,7 +2,6 @@ import React from "react";
 import Switch from "react-switch";
 import { IconOn, IconOff } from "./Icon";
 import { Draggable } from "react-beautiful-dnd";
-import Image from "next/image";
 
 const decideComponent = (props) => {
   switch (props.item.type) {
